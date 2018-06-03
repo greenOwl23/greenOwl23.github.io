@@ -3,12 +3,12 @@
 	//webName
 var webName ="Byan Brone";
 	//BarList
-var navList =["Nature","Animal","People","Portrait","Vechicle","Wedding","Birthday"];
+var navList =["Animal","People","Portrait","Vechicle","Wedding","Birthday"];
 var subNavList1 = ["Events","Wedding","Birthday","Engagment","Ceremony"];
 //Carousel
 var imgNames = ["img1.jpg","img2.jpg","img3.jpg","img4.jpg","img5.jpg","img6.jpg"];
 //PhotoBook
-var imgCount=[6,16,16,8,12,16,12];
+var imgCount=[8,8,8,8,8,8];
 //Footer
 
 //////////////// INSERTION //////////////
