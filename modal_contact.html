@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Contact Floating Button</h2>
+        <p>Click the button to open the contact form and fill in the information as required.</p>
+        <!-- Button to Open the Modal -->
+        <button id="open" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Open Contact Form
+        </button>
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h1 style="margin:auto" class="modal-title">Contact Form</h1>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="container">
+                            <form id="contact" action="" method="post">
+                                <h4>Please fill in the information below</h4>
+                                <fieldset>
+                                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                                </fieldset>
+                                <fieldset>
+                                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                                </fieldset>
+                                <fieldset>
+                                    <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+                                </fieldset>
+                                <fieldset>
+                                    <textarea placeholder="Type your message here...." tabindex="4" required></textarea>
+                                </fieldset>
+                                <fieldset id="sub_button">
+                                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                                </fieldset>
+                            </form>
+                            <p class="copyright">&copy Copy Right John Doe</p>
+                        </div>
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
